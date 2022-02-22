@@ -1,0 +1,115 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(238, 238, 238);
+}
+section{
+  background-color: white;
+  margin: 50px 50px;
+}
+.top-banner{
+  margin-bottom: -50px;
+}
+nav{
+  display: inline block;
+  text-align: right;
+  margin-right: 30px ;
+
+  
+}
+nav ul{
+  
+  padding:10px;
+  padding-top: 50px;
+  margin-right: 20px;
+  margin-bottom: -50px;
+  
+
+}
+nav ul a{
+  text-decoration: none;
+  margin-left: 30px;
+  padding-left: 10px;
+  
+}
+#name{ 
+  font-weight: bold;
+  color:rgba(235, 168, 22, 0.911);
+  
+}
+.services{
+  margin-top: -50px;
+
+}
+.services h1{
+  font-weight:bold;
+  color:rgba(235, 168, 22, 0.911);
+  text-align: center;
+  
+}
+hr{
+  width: 20%;
+  color: rgb(199, 197, 197);
+}
+.flexible-container{
+  display: flex;
+  
+ padding-bottom: 20px;
+
+}
+.half-width{
+  width:50%;
+  padding:50px 150px;
+}
+.half-width img{
+  width: 100%;
+  padding-left:50px;
+}
+
+.half-width ul{
+  margin-top: -100px ;
+  list-style: none;
+  
+}
+.half-width ul li{
+  text-align: left;
+  margin-left: -180px;
+  padding: 10px;
+}
+.half-width ul li a{
+  padding: 20px;
+  color: rgb(143, 142, 142);
+  
+}
+.link_button{
+  
+  text-decoration: none;
+  background-color: rgba(235, 168, 22, 0.911);
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+.service-title h2{
+  color: rgba(235, 168, 22, 0.911);
+  font-size: 20px;
+}
+.service-title p{
+  font-size: 12px;
+}
+.service-title img{
+  width: 100px;
+  height: 100px;
+  margin-top: -30px;
+  justify-content: center;
+  border: 2px solid rgb(236, 233, 233);
+  border-radius: 50px;
+  background-color: white;
+}
+.service-title{
+  width: 25%;
+  height:200px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding:5%;
+  border-radius: 20px 20px;
+  box-shadow: 5px 5px 10px lightgrey;
+  background-color: rgb(247, 244, 244);
+}
